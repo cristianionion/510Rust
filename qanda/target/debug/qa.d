@@ -1,0 +1,1 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda\target\debug\qa.exe: C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda\questions.json C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda\src\main.rs

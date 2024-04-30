@@ -1,0 +1,9 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qa\target\debug\deps\libconcurrent_queue-b5b24e68f4b59876.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\bounded.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\single.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\unbounded.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\sync.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qa\target\debug\deps\concurrent_queue-b5b24e68f4b59876.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\bounded.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\single.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\unbounded.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\sync.rs
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\bounded.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\single.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\unbounded.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\concurrent-queue-2.5.0\src\sync.rs:

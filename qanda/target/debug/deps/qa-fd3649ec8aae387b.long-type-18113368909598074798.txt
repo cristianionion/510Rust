@@ -1,0 +1,1 @@
+fn(Query<HashMap<std::string::String, std::string::String>>, Store) -> impl Future<Output = Result<Response<{type error}>, Error>> {get_questions}
