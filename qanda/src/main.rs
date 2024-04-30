@@ -2,14 +2,13 @@ use serde::{Deserialize, Serialize};
 use std::sync::Arc;
 use std::{collections::HashMap, net::SocketAddr};
 use tokio::sync::RwLock;
-use tower_http::cors::CorsLayer;
 
 use axum::{
     body::Body,
     extract::{Path, State},
     http::StatusCode,
     response::{IntoResponse, Response},
-    routing::get,
+    routing::{get,post},
     Json, Router,
 };
 
@@ -41,6 +40,8 @@ impl Store {
         let question = questions.get(index)?;
         Some(question.to_owned())
     }
+
+
 }
 
 #[derive(Deserialize, Debug, Clone, Serialize)]
@@ -118,6 +119,8 @@ async fn get_question(State(store): State<Store>, Path(params): Path<QuestionId>
     }
 }
 
+
+
 async fn handle_404() -> Response {
     (StatusCode::NOT_FOUND, "404 Not Found").into_response()
 }
@@ -127,12 +130,10 @@ async fn main() {
 
     let store = Store::new();
 
-    let cors = CorsLayer::new();
 
     let app = Router::new()
         .route("/questions", get(get_questions))
         .route("/questions/:id", get(get_question))
-        .layer(cors)
         .with_state(store)
         .fallback(handle_404);
 
