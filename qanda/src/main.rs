@@ -8,7 +8,7 @@ use axum::{
     extract::{Path, State},
     http::StatusCode,
     response::{IntoResponse, Response},
-    routing::{get,post},
+    routing::{get, post},
     Json, Router,
 };
 
@@ -40,8 +40,6 @@ impl Store {
         let question = questions.get(index)?;
         Some(question.to_owned())
     }
-
-
 }
 
 #[derive(Deserialize, Debug, Clone, Serialize)]
@@ -64,7 +62,7 @@ impl Question {
         }
     }
 }
-    // 'made joke meaningful' commit
+// 'made joke meaningful' commit
 
 impl IntoResponse for &Question {
     fn into_response(self) -> Response {
@@ -99,12 +97,8 @@ impl std::fmt::Display for Error {
     }
 }
 
-
-
-async fn get_questions(
-    State(store): State<Store>,
-) -> Response {
-    let questions=store.questions.read().await;
+async fn get_questions(State(store): State<Store>) -> Response {
+    let questions = store.questions.read().await;
     let response = Response::builder()
         .status(StatusCode::OK)
         .body(Body::from(serde_json::to_string(&*questions).unwrap()))
@@ -119,17 +113,13 @@ async fn get_question(State(store): State<Store>, Path(params): Path<QuestionId>
     }
 }
 
-
-
 async fn handle_404() -> Response {
     (StatusCode::NOT_FOUND, "404 Not Found").into_response()
 }
 
 #[tokio::main]
 async fn main() {
-
     let store = Store::new();
-
 
     let app = Router::new()
         .route("/questions", get(get_questions))
