@@ -12,8 +12,6 @@ use axum::{
     Json, Router,
 };
 
-//CORS Middleware - Introduction to Axum 0.5 by Brooks Builds on Youtube
-//https://docs.rs/tower-http/0.5.2/tower_http/cors/index.html
 
 #[derive(Clone)]
 struct Store {
