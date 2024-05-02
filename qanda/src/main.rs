@@ -13,7 +13,6 @@ use axum::{
     Json, Router,
 };
 
-
 #[derive(Clone)]
 struct Store {
     questions: Arc<RwLock<HashMap<QuestionId, Question>>>,
@@ -40,9 +39,21 @@ impl Store {
         Some(question.to_owned())
     }
 
+    //https://www.programiz.com/rust/hashmap#:~:text=Change%20Elements%20of%20a%20HashMap,(%22Apple%22))%3B%20fruits.
+
     pub async fn add_q(&self, question: Question) {
         let mut questions = self.questions.write().await;
         questions.insert(question.id.clone(), question);
+    }
+
+    pub async fn update_q(&self, question: Question) {
+        let mut questions = self.questions.write().await;
+        questions.insert(question.id.clone(), question);
+    }
+
+    pub async fn delete_q(&self, question: Question) {
+        let mut questions = self.questions.write().await;
+        questions.remove(&question.id.clone());
     }
 }
 
@@ -121,6 +132,14 @@ async fn insert_question(State(store): State<Store>, Json(question): Json<Questi
     store.add_q(question).await;
 }
 
+async fn update_question(State(store): State<Store>, Json(question): Json<Question>) {
+    store.update_q(question).await;
+}
+
+async fn delete_question(State(store): State<Store>, Json(question): Json<Question>) {
+    store.delete_q(question).await;
+}
+
 async fn handle_404() -> Response {
     (StatusCode::NOT_FOUND, "404 Not Found").into_response()
 }
@@ -133,6 +152,8 @@ async fn main() {
         .route("/questions", get(get_questions))
         .route("/questions/:id", get(get_question))
         .route("/question/add", post(insert_question))
+        .route("/update/:id", put(update_question))
+        .route("delete/:id", delete(delete_question))
         .with_state(store)
         .fallback(handle_404);
 
