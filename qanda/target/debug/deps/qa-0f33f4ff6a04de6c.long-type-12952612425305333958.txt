@@ -1,0 +1,1 @@
+fn(axum::extract::State<Store>) -> impl std::future::Future<Output = axum::http::Response<{type error}>> {get_questions}

@@ -1,4 +1,5 @@
 use serde::{Deserialize, Serialize};
+use std::ops::AddAssign;
 use std::sync::Arc;
 use std::{collections::HashMap, net::SocketAddr};
 use tokio::sync::RwLock;
@@ -8,12 +9,9 @@ use axum::{
     extract::{Path, State},
     http::StatusCode,
     response::{IntoResponse, Response},
-    routing::{get, post},
+    routing::{delete, get, post, put},
     Json, Router,
 };
-
-//CORS Middleware - Introduction to Axum 0.5 by Brooks Builds on Youtube
-//https://docs.rs/tower-http/0.5.2/tower_http/cors/index.html
 
 #[derive(Clone)]
 struct Store {
@@ -39,6 +37,11 @@ impl Store {
         let questions = &*questions;
         let question = questions.get(index)?;
         Some(question.to_owned())
+    }
+
+    pub async fn add_q(&self, question: Question) {
+        let mut questions = self.questions.write().await;
+        questions.insert(question.id.clone(), question);
     }
 }
 
@@ -113,6 +116,10 @@ async fn get_question(State(store): State<Store>, Path(params): Path<QuestionId>
     }
 }
 
+async fn insert_question(State(store): State<Store>, Json(question): Json<Question>) {
+    store.add_q(question).await;
+}
+
 async fn handle_404() -> Response {
     (StatusCode::NOT_FOUND, "404 Not Found").into_response()
 }
@@ -124,6 +131,7 @@ async fn main() {
     let app = Router::new()
         .route("/questions", get(get_questions))
         .route("/questions/:id", get(get_question))
+        .route("/question/add", post(insert_question))
         .with_state(store)
         .fallback(handle_404);
 
