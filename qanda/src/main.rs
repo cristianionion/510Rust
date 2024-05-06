@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use std::ops::AddAssign;
 use std::sync::Arc;
 use std::{collections::HashMap, net::SocketAddr};
 use tokio::sync::RwLock;
@@ -55,6 +54,11 @@ impl Store {
         let mut questions = self.questions.write().await;
         questions.remove(&question.id.clone());
     }
+
+    pub async fn add_a(&self, answer: Answer) {
+        let mut answers = self.answers.write().await;
+        answers.insert(answer.id.clone(), answer);
+    }
 }
 
 #[derive(Deserialize, Debug, Clone, Serialize)]
@@ -67,16 +71,6 @@ struct Question {
 #[derive(Deserialize, Clone, PartialEq, Eq, Hash, Debug, Serialize)]
 struct QuestionId(String);
 
-impl Question {
-    fn new(id: QuestionId, title: String, content: String, tags: Option<Vec<String>>) -> Self {
-        Question {
-            id,
-            title,
-            content,
-            tags,
-        }
-    }
-}
 // 'made joke meaningful' commit
 
 impl IntoResponse for &Question {
@@ -132,6 +126,9 @@ async fn insert_question(State(store): State<Store>, Json(question): Json<Questi
     store.add_q(question).await;
 }
 
+async fn insert_answer(State(store): State<Store>, Json(answer): Json<Answer>) {
+    store.add_a(answer).await;
+}
 async fn update_question(State(store): State<Store>, Json(question): Json<Question>) {
     store.update_q(question).await;
 }
@@ -154,6 +151,7 @@ async fn main() {
         .route("/question/add", post(insert_question))
         .route("/update/:id", put(update_question))
         .route("delete/:id", delete(delete_question))
+        .route("answer/add", post(insert_answer))
         .with_state(store)
         .fallback(handle_404);
 
