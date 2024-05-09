@@ -1,0 +1,1 @@
+fn(axum::extract::State<Store>, std::collections::HashMap<std::string::String, std::string::String>) -> impl std::future::Future<Output = axum::http::Response<axum::body::Body>> {get_questions}

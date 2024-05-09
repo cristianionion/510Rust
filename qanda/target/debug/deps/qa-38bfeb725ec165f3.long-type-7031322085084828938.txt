@@ -1,0 +1,1 @@
+fn(HashMap<std::string::String, std::string::String>, axum::extract::State<Arc<tokio::sync::RwLock<Store>>>) -> impl Future<Output = Response<Body>> {get_questions}

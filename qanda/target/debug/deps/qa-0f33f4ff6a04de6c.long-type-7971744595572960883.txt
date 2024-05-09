@@ -1,0 +1,1 @@
+fn(axum::extract::State<{type error}>, axum::extract::Path<QuestionId>) -> impl std::future::Future<Output = axum::http::Response<axum::body::Body>> {get_question}

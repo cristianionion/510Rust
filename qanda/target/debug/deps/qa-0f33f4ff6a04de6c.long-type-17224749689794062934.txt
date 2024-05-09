@@ -1,0 +1,1 @@
+fn(std::collections::HashMap<std::string::String, std::string::String>, axum::extract::State<Store>) -> impl std::future::Future<Output = std::result::Result<axum::Json<std::vec::Vec<Question>>, Errors>> {get_questions}
