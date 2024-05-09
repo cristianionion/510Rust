@@ -1,5 +1,5 @@
-use std::collections::HashMap;
 use axum::http::StatusCode;
+use std::collections::HashMap;
 
 use axum::{
     extract::{Path, State},

@@ -18,12 +18,8 @@ mod types;
 
 use crate::routes::answer::insert_answer;
 use crate::routes::question::{
-    get_questions,get_question,insert_question,update_question,delete_question,
+    delete_question, get_question, get_questions, insert_question, update_question,
 };
-
-
-
-
 
 async fn handle_404() -> Response {
     (StatusCode::NOT_FOUND, "404 Not Found").into_response()

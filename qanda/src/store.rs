@@ -1,12 +1,11 @@
-use tokio::sync::RwLock;
 use std::collections::HashMap;
 use std::sync::Arc;
+use tokio::sync::RwLock;
 
 use crate::types::{
     answer::{Answer, AnswerId},
     question::{Question, QuestionId},
 };
-
 
 #[derive(Clone)]
 pub struct Store {
@@ -38,13 +37,12 @@ impl Store {
 
     pub async fn add_q(&self, question: Question) {
         let mut questions = self.questions.write().await;
-       
-       
+
         // temp insert functionality
-        
+
         let id = QuestionId("temp".to_string());
 
-        let question = Question{
+        let question = Question {
             id: id,
             title: "tempTitle".to_string(),
             content: "tempContent".to_string(),
@@ -56,13 +54,12 @@ impl Store {
 
     pub async fn update_q(&self, question: Question) {
         let mut questions = self.questions.write().await;
-        
-        
+
         // temp update functionality
-        
+
         let id = QuestionId("update".to_string());
 
-        let question = Question{
+        let question = Question {
             id: id,
             title: "updateTitle".to_string(),
             content: "updateContent".to_string(),
@@ -74,12 +71,12 @@ impl Store {
 
     pub async fn delete_q(&self, question: Question) {
         let mut questions = self.questions.write().await;
-        
+
         // temp delete functionality
-        
+
         let id = QuestionId("1".to_string());
 
-        let question = Question{
+        let question = Question {
             id: id,
             title: "How?".to_string(),
             content: "Please Help!".to_string(),

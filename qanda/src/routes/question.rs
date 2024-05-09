@@ -1,5 +1,5 @@
-use std::collections::HashMap;
 use axum::http::StatusCode;
+use std::collections::HashMap;
 
 use axum::{
     body::Body,
@@ -11,12 +11,10 @@ use axum::{
 use crate::store::Store;
 use crate::types::question::{Question, QuestionId};
 
-
-
 pub async fn get_questions(State(store): State<Store>) -> Response {
     let questions = store.questions.read().await;
     // add the pagination
-    
+
     let response = Response::builder()
         .status(StatusCode::OK)
         .body(Body::from(serde_json::to_string(&*questions).unwrap()))
@@ -35,7 +33,6 @@ pub async fn insert_question(State(store): State<Store>, Json(question): Json<Qu
     store.add_q(question).await;
 }
 
-
 pub async fn update_question(State(store): State<Store>, Json(question): Json<Question>) {
     store.update_q(question).await;
 }
@@ -43,4 +40,3 @@ pub async fn update_question(State(store): State<Store>, Json(question): Json<Qu
 pub async fn delete_question(State(store): State<Store>, Json(question): Json<Question>) {
     store.delete_q(question).await;
 }
-
