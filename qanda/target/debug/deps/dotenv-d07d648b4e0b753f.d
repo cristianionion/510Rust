@@ -1,0 +1,11 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust -DB attempt\qanda\target\debug\deps\libdotenv-d07d648b4e0b753f.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust -DB attempt\qanda\target\debug\deps\libdotenv-d07d648b4e0b753f.rlib: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust -DB attempt\qanda\target\debug\deps\dotenv-d07d648b4e0b753f.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs:

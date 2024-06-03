@@ -1,1 +1,0 @@
-fn({type error}, {type error}) -> impl std::future::Future<Output = ()> {routes::answer::insert_answer}

@@ -1,1 +1,0 @@
-fn(axum::extract::State<{type error}>, axum::Json<Answer>) -> impl std::future::Future<Output = ()> {insert_answer}

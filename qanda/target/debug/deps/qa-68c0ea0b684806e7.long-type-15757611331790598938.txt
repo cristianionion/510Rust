@@ -1,0 +1,1 @@
+fn(axum::extract::State<Store>, axum::Json<Question>) -> impl Future<Output = Result<Response<{type error}>, handle_errors::Error>> {add_question}

@@ -1,0 +1,10 @@
+TODO stuff
+
+prolly have to update routes/question.rs, routes/answers.rs and main.rs
+    switch from old get_q add_q,... JSON to
+        get_question, add_questions,... DB
+
+
+when cargo clippy wasn't working,
+    cargo clean, then cargo build, showed more valuable errors
+

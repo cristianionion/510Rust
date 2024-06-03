@@ -1,0 +1,1 @@
+fn(axum::extract::State<store::Store>, axum::Json<types::question::Question>) -> impl std::future::Future<Output = std::result::Result<axum::http::Response<axum::body::Body>, axum::Error>> {routes::question::add_question}

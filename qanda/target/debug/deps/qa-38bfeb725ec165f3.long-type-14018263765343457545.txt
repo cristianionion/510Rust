@@ -1,1 +1,0 @@
-fn({type error}, axum::extract::Path<HashMap<std::string::String, std::string::String>>) -> impl Future<Output = Response<Body>> {get_questions}

@@ -1,0 +1,1 @@
+fn(store::Store, types::question::NewQuestion) -> impl std::future::Future<Output = std::result::Result<axum::http::Response<axum::body::Body>, handle_errors::Error>> {routes::question::add_question}

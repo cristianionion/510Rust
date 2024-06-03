@@ -1,0 +1,10 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust -DB attempt\qanda\target\debug\deps\libsqlformat-d0fe411e325157e0.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\formatter.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\indentation.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\inline_block.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\params.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\tokenizer.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust -DB attempt\qanda\target\debug\deps\sqlformat-d0fe411e325157e0.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\formatter.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\indentation.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\inline_block.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\params.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\tokenizer.rs
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\formatter.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\indentation.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\inline_block.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\params.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.1.8\src\tokenizer.rs:

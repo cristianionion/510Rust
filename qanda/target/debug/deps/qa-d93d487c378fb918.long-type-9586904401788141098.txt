@@ -1,0 +1,1 @@
+fn(axum::extract::Query<HashMap<std::string::String, std::string::String>>, Store) -> impl Future<Output = Result<Response<Body>, handle_errors::Error>> {routes::question::get_questions}

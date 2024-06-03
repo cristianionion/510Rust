@@ -1,1 +1,0 @@
-fn(Store, std::collections::HashMap<std::string::String, std::string::String>) -> impl std::future::Future<Output = ()> {add_answer}

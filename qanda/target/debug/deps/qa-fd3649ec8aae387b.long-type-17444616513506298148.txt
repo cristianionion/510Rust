@@ -1,1 +1,0 @@
-fn(axum::extract::Path<HashMap<std::string::String, std::string::String>>, axum::extract::State<Store>) -> impl Future<Output = Result<Response<Body>, Error>> {get_questions}

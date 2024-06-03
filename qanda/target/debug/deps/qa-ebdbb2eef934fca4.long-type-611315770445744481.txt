@@ -1,0 +1,1 @@
+fn(axum::extract::Query<HashMap<std::string::String, std::string::String>>, Extension<{type error}>) -> impl Future<Output = impl IntoResponse> {get_questions}

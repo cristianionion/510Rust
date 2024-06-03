@@ -1,0 +1,1 @@
+fn(std::collections::HashMap<std::string::String, std::string::String>, store::Store) -> impl std::future::Future<Output = std::result::Result<axum::http::Response<{type error}>, handle_errors::Error>> {routes::question::get_questions}

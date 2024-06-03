@@ -1,1 +1,0 @@
-fn(HashMap<std::string::String, std::string::String>, Store) -> impl Future<Output = Result<{type error}, {type error}>> {get_questions}

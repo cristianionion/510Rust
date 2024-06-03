@@ -1,0 +1,1 @@
+fn(axum::Json<types::question::NewQuestion>, axum::extract::State<std::sync::Arc<store::Store>>) -> impl std::future::Future<Output = impl axum::response::IntoResponse> {routes::question::add_question}
