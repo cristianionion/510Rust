@@ -50,7 +50,7 @@ fn app()->Html {
                     <li key={question.id}>
                     <h2>{ format!("id: {}", question.id) }</h2>
                     <h3>{ format!("title: {}", question.title) }</h3>
-                        <p>{ &question.content }</p>
+                        <p>{ format!("content: {}", question.content)  }</p>
                         <small>{ format!("tags: [{}]", question.tags.join(", ")) }</small>
                     </li>
                 })}
