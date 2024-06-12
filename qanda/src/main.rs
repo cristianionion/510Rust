@@ -4,6 +4,8 @@ use std::sync::Arc;
 use std::{collections::HashMap, net::SocketAddr};
 use tokio::sync::RwLock;
 use tracing_subscriber::fmt::format::FmtSpan;
+use tower_http::cors::{Any, CorsLayer};
+
 
 use axum::{
     body::Body,
@@ -63,6 +65,11 @@ async fn main() {
         .await
         .expect("Cannot migrate DB");
 
+    let cors = CorsLayer::new()
+        .allow_origin(Any)
+        .allow_methods(Any)
+        .allow_headers(Any);
+
     let app = Router::new()
         .route("/questions", get(get_questions))
         //.route("/questions/:id", get(get_question))
@@ -71,9 +78,10 @@ async fn main() {
         .route("/delete/:id", delete(delete_question))
         .route("/answer/add", post(add_answer))
         .with_state(store)
+        .layer(cors)
         .fallback(handle_404);
 
-    let ip = SocketAddr::new([127, 0, 0, 1].into(), 3000);
+    let ip = SocketAddr::new([127, 0, 0, 1].into(), 4000);
     eprintln!("qa: serving {}", ip);
     let listener = tokio::net::TcpListener::bind(ip).await.unwrap();
     axum::serve(listener, app).await.unwrap();
