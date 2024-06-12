@@ -1,0 +1,10 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\wasm32-unknown-unknown\debug\deps\libgloo_storage-7c05fbbcd86e46f7.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\wasm32-unknown-unknown\debug\deps\libgloo_storage-7c05fbbcd86e46f7.rlib: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\wasm32-unknown-unknown\debug\deps\gloo_storage-7c05fbbcd86e46f7.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\errors.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\local_storage.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\gloo-storage-0.2.2\src\session_storage.rs:

@@ -1,0 +1,9 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\debug\deps\libserde_wasm_bindgen-cc4091a69e0d6c6a.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\debug\deps\serde_wasm_bindgen-cc4091a69e0d6c6a.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md:

@@ -1,0 +1,10 @@
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\debug\deps\libimplicit_clone-913cdb027715ebcb.rmeta: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\sync.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\array.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\map.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\string.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\unsync.rs
+
+C:\Users\ioncr\Documents\GitHub\rustclass\510Rust\qanda-yew\target\debug\deps\implicit_clone-913cdb027715ebcb.d: C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\lib.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\sync.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\array.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\map.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\string.rs C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\unsync.rs
+
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\lib.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\sync.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\array.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\map.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\string.rs:
+C:\Users\ioncr\.cargo\registry\src\index.crates.io-6f17d22bba15001f\implicit-clone-0.3.9\src\unsync.rs:

@@ -1,0 +1,13 @@
+[package]
+name = "knock-knock-yew"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gloo-console = "0.3.0"
+gloo-net = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+wasm-bindgen-futures = "0.4"
+wasm-cookies = "0.2.1"
+web-sys = { version = "0.3.69", features = ["HtmlTextAreaElement"] }
+yew = { version = "0.20", features = ["csr"] }
